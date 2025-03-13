@@ -1,0 +1,8 @@
+mesh {
+  materialSlots {
+    materialSlot name:"Default" locator:"/materials/Default.mat", 
+  },
+  meshes {
+    mesh slot: 0 locator: "suzanne_Suzanne.rmesh",
+  },
+}

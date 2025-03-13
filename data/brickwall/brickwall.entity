@@ -1,0 +1,8 @@
+entity {
+  transform {
+    matrix4 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1,
+  },
+  state cls:"cs::csStaticMeshState" {
+    mesh locator:"brickwall.mesh",
+  },
+},
