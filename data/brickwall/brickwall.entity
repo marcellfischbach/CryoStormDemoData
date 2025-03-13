@@ -1,8 +1,12 @@
-entity {
-  transform {
-    matrix4 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1,
+entity id="root" {
+  states {
+    state cls:"cs::csStaticMeshState" {
+      transform {
+        matrix4 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1,
+      },
+      mesh locator:"brickwall.mesh",
+    },
   },
-  state cls:"cs::csStaticMeshState" {
-    mesh locator:"brickwall.mesh",
+  children {
   },
 },
